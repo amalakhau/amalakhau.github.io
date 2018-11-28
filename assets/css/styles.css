@@ -113,7 +113,7 @@ body {
 #services {
     padding: 50px 0 55px;
     background-color: #fafafa;
-    border-bottom: 20px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 #services h2 {
@@ -215,7 +215,7 @@ body {
     background-color: #000;
 }
 
-#contacts .socials .fa {
+#contacts .socials i {
     font-size: 32px;
     color: #000;
     margin-right: 5px;
@@ -361,6 +361,10 @@ footer .copyright a {
 
     #main h1 {
         font-size: 44px;
+    }
+
+    #contacts .col-md-3 div:last-child {
+        margin: 0 0 35px;
     }
 
     footer .copyright {
